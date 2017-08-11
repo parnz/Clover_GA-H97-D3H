@@ -1,6 +1,6 @@
 # Intro
 
-This is my working config for [CLOVER][Clover] of Hackintosh (El Capitan 10.11.6 & Sierra 10.12.3)
+This is my working config for [CLOVER][Clover] of Hackintosh (Sierra 10.12.6)
 
 My Hack specs:
 
@@ -11,6 +11,7 @@ My Hack specs:
 * Gigabyte GA-H97-D3H (Clover OEM identify mobo as H97-D3H-CF)
 * Zotac GTX 980 ti AMP! 6GB
 * 16GB (2 × 8GB) RAM Curcial Balistix Sport
+* Apple Broadcom BCM94360CD 802.11ac WiFi Bluetooth 4.0 Mini PCI-E
 * Micon M600 512GB (51GB - 10% OverProvisioning, trimforce enable) - macOS
 * Micon M600 512GB (51GB - 10% OverProvisioning, Momentum Cache) - Windows X
 * Segate Baracuda 7200.14 1TB SATA III
@@ -51,7 +52,7 @@ For more information about `Lilu` follow this link [Lilu github][Lilu]
 [AppleALC]: https://github.com/vit9696/AppleALC
 [Lilu]: https://github.com/vit9696/Lilu
 [Clover]: http://sourceforge.net/projects/cloverefiboot/
-[Windows Boot]: ./Screenshots/Bootable_Windows_from_OSX.png
-[System Info]: ./Screenshots/System_Info.png
-[BIOS_MOD]: ./BIOS/MOD_H97D3H.F6
+[Windows Boot]: ./misc/Screenshots/Bootable_Windows_from_OSX.png
+[System Info]: ./misc/Screenshots/System_Info.png
+[BIOS_MOD]: ./misc/BIOS/MOD_H97D3H.F6
 [CCE]: http://cloudclovereditor.altervista.org/
