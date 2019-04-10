@@ -4,6 +4,16 @@
   <dict>
     <key>ACPI</key>
     <dict>
+      <key>FixHeaders</key>
+      <true/>
+      <key>DSDT</key>
+      <dict>
+        <key>Fixes</key>
+        <dict>
+          <key>FixRegions</key>
+          <true/>
+        </dict>
+      </dict>
       <key>DropTables</key>
       <array>
         <dict>
@@ -29,13 +39,6 @@
           <string>DMAR</string>
         </dict>
       </array>
-      <key>FixHeaders</key>
-      <true/>
-      <key>SSDT</key>
-      <dict>
-        <key>PluginType</key>
-        <true/>
-      </dict>
     </dict>
     <key>Boot</key>
     <dict>
@@ -46,10 +49,6 @@
       <key>Timeout</key>
       <integer>5</integer>
     </dict>
-    <key>DisableDrivers</key>
-    <array>
-      <string>VirtualSmc</string>
-    </array>
     <key>GUI</key>
     <dict>
       <key>Hide</key>
